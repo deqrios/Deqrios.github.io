@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import "reset.css";
+
+:root {
+    --color_picker: #ffffff;
+    --spacing: 10px;
+    --blur: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: #dbf3ff;
+    color: grey;
+}
+
+img {
+    width: 60%;
+    height: 60%;
+    background: var(--color_picker);
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+}
+
+input {
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #6e86ff;
+    line-height: 1.5;
+}
+
+.sub {
+    color: grey;
+}
+
+.controls {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}

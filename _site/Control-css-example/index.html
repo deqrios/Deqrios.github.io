@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel = "stylesheet" href="style.css"/>
+        <title>Photo Editor</title>
+    </header>
+    <body>
+        <div class="js-controls controls">
+            <label for="color_picker">Color Picker</label>
+            <input id="color_picker" type="color" name="color_picker" value="#ffffff">
+            <label for="spacing">Border Spacing</label>
+            <input id="spacing" type="range" name="spacing" value="10" min="10" max="200" data-sizing="px">
+            <label id="blur">Blur</label>
+            <input id="blur" type="range" name="blur" value="0" min="0" max="25" data-sizing="px">
+        </div>
+        <img src="https://images.unsplash.com/photo-1583659562209-14e14ee9d448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80">
+        <script src="control.js"></script>
+    </body>
+    <footer>
+        A simple photo editor.<br>
+        2020 @<a href="https://floatferry.github.io/">FloatFerry</a>
+        <a class="sub" href="https://github.com/FloatFerry">[GitHub]</a>
+    </footer>
+</html>
