@@ -1,0 +1,75 @@
+---
+layout: null
+title: DrumKit
+permalink: /drumkit/
+---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Let's Play Drum!</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>Let's Play Drum!!</h1>
+
+        <!--div태그에 키 값을 주고 어떤 사운드인지 명시 함.-->
+
+        <div class="js-keys keys">
+            <div class="js-key key" data-key="65">
+                <kbd>A</kbd>
+                <span class="js-sound sound">Clap</span>
+            </div>
+            <div class="js-key key" data-key="83">
+                <kbd>S</kbd>
+                <span class="js-sound sound">Hihat</span>
+            </div>
+            <div class="js-key key" data-key="68">
+                <kbd>D</kbd>
+                <span class="js-sound sound">Kick</span>
+            </div>
+            <div class="js-key key" data-key="70">
+                <kbd>F</kbd>
+                <span class="js-sound sound">OpenHat</span>
+            </div>
+            <div class="js-key key" data-key="71">
+                <kbd>G</kbd>
+                <span class="js-sound sound">Boom</span>
+            </div>
+            <div class="js-key key" data-key="72">
+                <kbd>H</kbd>
+                <span class="js-sound sound">Ride</span>
+            </div>
+            <div class="js-key key" data-key="74">
+                <kbd>J</kbd>
+                <span class="js-sound sound">Snare</span>
+            </div>
+            <div class="js-key key" data-key="75">
+                <kbd>K</kbd>
+                <span class="js-sound sound">Tom</span>
+            </div>
+            <div class="js-key key" data-key="76">
+                <kbd>L</kbd>
+                <span class="js-sound sound">Tink</span>
+            </div>
+        </div>
+
+        <p>A simple drum kit.<br>
+           2020@<a href="https://floatferry.github.io/">FloatFerry</a><a href="https://github.com/FloatFerry">[github]</a></p>
+
+        <!--사운드 파일과 키 값을 바인딩.-->
+
+        <audio src="./sounds/clap.wav" data-key="65"></audio>
+        <audio src="./sounds/hihat.wav" data-key="83"></audio>
+        <audio src="./sounds/kick.wav" data-key="68"></audio>
+        <audio src="./sounds/openhat.wav" data-key="70"></audio>
+        <audio src="./sounds/boom.wav" data-key="71"></audio>
+        <audio src="./sounds/ride.wav" data-key="72"></audio>
+        <audio src="./sounds/snare.wav" data-key="74"></audio>
+        <audio src="./sounds/tom.wav" data-key="75"></audio>
+        <audio src="./sounds/tink.wav" data-key="76"></audio>
+
+        <script src="drum.js"></script>
+    </body>
+</html>

@@ -18,7 +18,7 @@ url: https://floatferry.github.io # the base hostname & protocol for your site
 twitter_username: 
 github_username:  FloatFerry
 
-permalink: /:year-:month-:day-title/
+permalink: /:year-:month-:day-:title/
 
 # Build settings
 markdown: kramdown

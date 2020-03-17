@@ -1,0 +1,52 @@
+@charset "utf-8";
+@import "reset.css";
+
+h1 {
+    text-align: center;
+    font-size: 7rem;
+    color: #1d335aa1;
+}
+
+body {
+    background-color: #8d9cb5;
+}
+
+p {
+    text-align: center;
+    font-size: 1em;
+    color: white;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.705);
+    text-decoration: none;
+}
+
+kbd {
+    display: block;
+    font-size: 5rem;
+}
+
+.keys {
+    display: flex;
+    flex : 1;
+    align-items: center;
+    justify-content: center;
+    margin: 250px auto 180px auto;
+}
+
+.key {
+    width: 130px;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px 10px;
+    transition: all 0.2s ease;
+    background-color: #365da060;
+}
+
+.effect {
+    background-color: white;
+}
