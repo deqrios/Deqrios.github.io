@@ -1,0 +1,164 @@
+@charset "utf-8";
+@import "reset.css";
+
+html {
+    font-size: 10px
+}
+
+body {
+    background-color: #26262e;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    min-height: 50vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 7rem;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+video {
+    width: 100%;
+}
+
+input[type="range"] {
+    background: transparent;
+    width: 100%;
+    margin: 0 5px;
+    -webkit-appearance: none;
+}
+
+input[type="range"]:focus {
+    outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background-color: #26262e7a;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #26262e;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -4.5px;
+}
+
+input[type="range"]:focus::-webkit-slider-runnable-track {
+    background-color: #26262ec5;
+}
+
+input[type="range"]::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    background-color: #26262e7a;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #26262e;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -4.5px;
+}
+
+.player {
+    max-width: 800px;
+    position: relative;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.player:fullscreen {
+    max-width: none;
+    width: 100%;
+}
+
+.player:-webkit-fullscreen {
+    max-width: none;
+    width: 100%;
+}
+
+.button {
+    background: none;
+    border: none;
+    line-height: 1;
+    text-align: center;
+    outline: none;
+    padding: 0;
+    max-width: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+.button:hover {
+    color: slateblue;
+}
+
+.slider {
+    height: 20px;
+    width: 10px;
+}
+
+.controls {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #26262e2c;
+}
+
+.controls > * {
+    flex: 1;
+}
+
+.progress {
+    background-color: #26262e2c;
+    height: 20px;
+    display: flex;
+    flex: 10;
+    position: relative;
+    flex-basis: 100%;
+    cursor: ew-resize;
+}
+
+.pass-progress {
+    background-color: #26262e80;
+    width: 50%;
+    flex: 0;
+    flex-basis: 50%;
+}
+
+.footer {
+    color: #cad2fa;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 0;
+    font-size: 1.5rem;
+}
+
+.footer a {
+    color: #99aafd;
+}
+
+.sub {
+    color: #cad2fa !important;
+}

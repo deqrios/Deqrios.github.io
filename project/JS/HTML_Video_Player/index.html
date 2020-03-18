@@ -1,0 +1,36 @@
+---
+layout: null
+title: CUTE Cat Video
+permalink: /project/JS/HTML_Video_Player/
+---
+
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>HTML Video Player</title>
+        <link rel = "stylesheet" href="style.css"/>
+    </header>
+    <body>
+        <div class="js-player player">
+            <h1>Video Player</h1>
+            <video class="js-video video" src="cat.mp4"></video>
+            <div class="js-controls controls">      //  control unit 집합체.
+                <div class="js-progress progress">   
+                    <div class="js-pass-progress pass-progress"></div> // video progress expression
+                </div>
+                <button class="js-toggle button " title="play"> > </button>
+                <input type="range" name="volume" class="js-slider slider" min="0" max="1" step="0.05" value="1">
+                <input type="range" name="playbackRate" class="js-slider slider" min="0.25" max="5" step="0.05" value="1">
+                <button data-skip="-3" class="js-button button"> << </button>
+                <button data-skip="3" class="js-button button"> >> </button>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Video Player developed with HTML5<br>2020 @<a href="https://floatferry.github.io/">FloatFerry</a> 
+            <a class="sub" href="https://github.com/FloatFerry">[GitHub]</a></p>
+        </div>
+
+        <script src="action.js"></script>
+    </body>
+</html>
