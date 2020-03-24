@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FloatFerry</title>
+    <title>Deqrios</title>
     <description>데모 사이트
 </description>
-    <link>https://floatferry.github.io/</link>
-    <atom:link href="https://floatferry.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://Deqrios.github.io/</link>
+    <atom:link href="https://Deqrios.github.io/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Tue, 17 Mar 2020 21:41:25 +0900</pubDate>
     <lastBuildDate>Tue, 17 Mar 2020 21:41:25 +0900</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Fri, 13 Mar 2020 19:45:50 +0900</pubDate>
-        <link>https://floatferry.github.io/2020-03-13-welcome-to-jekyll/</link>
-        <guid isPermaLink="true">https://floatferry.github.io/2020-03-13-welcome-to-jekyll/</guid>
+        <link>https://Deqrios.github.io/2020-03-13-welcome-to-jekyll/</link>
+        <guid isPermaLink="true">https://Deqrios.github.io/2020-03-13-welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
